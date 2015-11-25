@@ -6,7 +6,7 @@
 }
 .dimogh p {
     margin: 5%;
-    font-size: 24px;
+    font-size: 18px;
 }
 .stanogh {
     border-style: dashed;
@@ -16,7 +16,7 @@
 }
 .stanogh p {
     margin: 1%;
-    font-size: 24px;
+    font-size:18px;
 }
 .content {
     margin: auto;
@@ -34,6 +34,7 @@ div.dimogh > img {
     height: 30px;
     margin-top: -1.6%;
     margin-left: -2%;
+	background-color: white;
 }
 div.stanogh > img {
     position: absolute;
@@ -41,4 +42,33 @@ div.stanogh > img {
     height: 30px;
     margin-top: -3.3%;
     margin-left: -3%;
-}    
+	background-color: white;
+}
+.selects {
+	float: right;
+}   
+.selects select {
+	width: 100%;
+	background-color: wheat;
+	height: 29px;
+	border-radius: 6px;
+}
+.selects select option {
+	font-size: 18px;
+}
+option p:hover {
+	font-size: 24px;
+}
+.selection select {
+	width: 13%;
+	margin-top: 20%;
+	height: 30px; 
+	border-radius: 7%;
+}
+.selection select option {
+	font-size: 20px;
+}
+
+.selection select option:hover {
+	font-size: 30px;
+}
