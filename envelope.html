@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>envelope</title>
         <link rel ="stylesheet" type ="text/css" href="style.css" />
+        <script src ="./main.js"></script>
     </head>
     <body>
         <div class="content">
@@ -17,13 +18,13 @@
             </div>
 		</div>
 		<div class="select">	
-			<select>
+			<select class="multiselect" onchange="a();">
 				<optgroup label ="Argon city">
-					<option>Mkhitar Hayrapetyan</option>
+					<option id="1">Mkhitar Hayrapetyan Mkhitar</option>
 					<option>Arpine Petrosyan</option>
 					<option>Mesrop Petrosyan</option>
 					<option>Roxanne Kapyan</option>	
-					<option selected>Kristina Poghosyan</option>	
+					<option>Kristina Poghosyan</option>	
 				</optgroup>
 				<optgroup label ="Starbust">
 			 		<option>Sos Sargsyan</option>
@@ -32,34 +33,9 @@
 			</select>
 		</div>
 		<div class="selects">
-            <select>
-                <optgroup label ="Argon city">
-                    <option><p>Mkhitar Hayrapetyan</p></option>
-                    <option>Arpine Petrosyan</option>
-                    <option>Mesrop Petrosyan</option>
-                    <option>Roxanne Kapyan</option>
-                    <option selected>Kristina Poghosyan</option
-                </optgroup>
-                <optgroup label ="Starbust">
-                    <option>Sos Sargsyan</option>
-                    <option>Tigran Balayan</option>
-                </optgroup>
-            </select>
         </div>
-		<div class="dropdown">
-			<button type="button">Instigate</button>
-			<img src="./images/triangle.png">
-				<ul class="dropdown-menu">
-					<li>Argon City</li>
-					<li><a href="#">Arpine Petrosyan</a></li>
-				    <li><a href="#">Mesrop Petrosyan</a></li>
-					<li><a href="#">Kristina Poghosyan</a></li>
-					<li><a href="#">Roksanne Kapyan</a></li>
-					<li><a href="#">Mesrop Petrosyan</a></li>
-					<li>Starbust</li>
-					<li><a href="#">Tigran Balayan</a></li>
-				   <li><a href="#">Sos Sargsyan</a></li>
-				</ul>
-		</div>
+		<input value="Cleck me" type="button" onclick="clickButton();" />
+		<input value="multiply" type="button" onclick="myFunction(3,4);" />
+		<input value="casee" type="button" onclick="upercase();" />
     </body>
 </html>
