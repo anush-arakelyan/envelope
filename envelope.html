@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <title>envelope</title>
         <link rel ="stylesheet" type ="text/css" href="style.css" />
         <script src ="./main.js"></script>
@@ -10,25 +10,27 @@
         <div class="content">
             <div class="dimogh">
                 <img src="./images/cut.png">
-                <p>Արմինե Գրիգորյան ք․ Ստեփանակերտ  Ա․ Առաքելյան փող․ 2, բն․ 14</p>
-            </div>
+				<p>բալսլակֆդասկ</p>
+			</div>
             <div class="stanogh">
                 <img src="./images/cut.png">
-                <p>ՀՀ ԱԳ նախարար է․ Նալբանդյանին</p>
+                <p>ՀՀ ԱԳՆ փոխնախարար Է․ Նալբանդյանին</p>
             </div>
 		</div>
 		<div class="select">	
 			<select class="multiselect" onchange="a();">
-				<optgroup label ="Argon city">
-					<option id="1">Mkhitar Hayrapetyan Mkhitar</option>
-					<option>Arpine Petrosyan</option>
-					<option>Mesrop Petrosyan</option>
-					<option>Roxanne Kapyan</option>	
-					<option>Kristina Poghosyan</option>	
+				<optgroup value="er" label ="ԵՐԵՎԱՆ">
+					<option value="shen">ՇԵՆԳԱՎԻԹ</option>
+					<option value="ar">ԱՐԱԲԿԻՐ</option>
+					<option value="nor">ՆՈՐ ՆՈՐՔ</option>
+					<option value="av">ԱՎԱՆ</option>	
+					<option value="qa">ՔԱՆԱՔԵՌ</option>	
 				</optgroup>
-				<optgroup label ="Starbust">
-			 		<option>Sos Sargsyan</option>
-					<option>Tigran Balayan</option>
+				<optgroup value="a" label ="ԱՐԱԳԱԾՈՏՆԻ ՄԱՐԶ">
+			 		<option value="ap">ԱՊԱՐԱՆ</option>
+					<option value="am">ԱՐԱԳԱԾ</option>
+					<option value="ash">ԱՇՏԱՐԱԿ</option>
+					<option value="ta">ԹԱԼԻՆ</option>
 				</optgroup> 
 			</select>
 		</div>
@@ -39,6 +41,7 @@
 		<input value="casee" type="button" onclick="upercase();" />
 		<input value="Age" type="button" onclick="age();" />
 		<input value="Age ?" type="button" onclick="years();" />
-		 <input value="company" type="button" onclick="netscape();" />
+		<input value="company" type="button" onclick="netscape();" />
+		<input value="your age" type="button" onclick="yourAge();" />
     </body>
 </html>
